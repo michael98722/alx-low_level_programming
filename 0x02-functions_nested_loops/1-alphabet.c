@@ -1,15 +1,13 @@
 #include "main.h"
-
 /**
- * print_alphabet - It should be in lowercase, followed by a new line
+ *print_alphabet - It should be in lowercase, followed by a new line
  */
-
-void print_alphabet(void);
+void print_alphabet(void)
 {
-	char xy;
+	char x;
 
-	for (xy = 'a'; xy <= 'z'; xy++)
-		_putchar(xy);
+	for (x = 'a'; x <= 'z'; x++)
+		_putchar(x);
 
 		_putchar('\n');
 }
