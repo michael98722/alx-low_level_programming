@@ -1,14 +1,14 @@
 #include "main.h"
-/**
- * print_alphabet - It should be in lowercase, followed by a new line
- */
 
+/**
+ * print_alphabet - print the alphabet in lowercases
+ */
 void print_alphabet(void)
 {
-	char xy;
+	char la;
 
-	for (xy = 'a'; xy <= 'z'; xy++)
-		_putchar(xy);
+	for (la = 'a'; la <= 'z'; la++)
+		_putchar(la);
 
-		_putchar('\n');
+	_putchar('\n');
 }
