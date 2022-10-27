@@ -18,6 +18,6 @@ int main(void)
 	 */
 	*(p + 5) = 98;
 	/* ...so that this prints 98\n */
-	printf("a[5][2] = %d\n" a[5][2]);
+	printf("a[5][2] = %d\n", a[5][2]);
 	return (0);
 }
