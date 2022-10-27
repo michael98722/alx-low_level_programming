@@ -1,4 +1,8 @@
-#include "main.h"
+#include <stdio.h>
+
+/**
+ * main - print a[2] = 98 forllowed by a new line.
+ */
 
 int main(void)
 {
