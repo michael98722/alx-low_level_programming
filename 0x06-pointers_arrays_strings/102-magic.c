@@ -2,6 +2,7 @@
 
 /**
  * main - print a[2] = 98 forllowed by a new line.
+ * Return: 0
  */
 
 int main(void)
